@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-
   return (
     <>
-      <h1 className=''>React App</h1>
-      <button className='btn'>Hello</button>
+      <NavBar></NavBar>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
